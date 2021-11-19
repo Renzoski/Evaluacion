@@ -1,0 +1,16 @@
+.pokemon_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "nombre accion";
+    grid-gap: 20px;
+    margin-bottom: 25px;
+}
+.pokemon_list_header {
+    grid-area: nombre;
+}
+
+.pokemon_list_row {
+    grid-area: accion;
+}
